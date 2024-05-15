@@ -1,7 +1,7 @@
 <h1>Último Evento</h1>
 <section id="home-combates">
   <ng-container id="ngcontainer" *ngFor="let combate of data; let i = index">
-    <div id="fondo">
+    <a href="/combates/{{combate.eventoid}}"><div id="fondo">
     <div *ngIf="i % 2 === 0" id="combate">
       <div id="luch1" class="combate">
         <div id="info">
@@ -108,7 +108,7 @@
       </div>
     </div>
     <div id="line" *ngIf="i % 2 == 0"></div>
-  </div>
+  </div></a>
   </ng-container>
 
 </section>

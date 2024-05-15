@@ -9,6 +9,10 @@ html {
   grid-template-columns: 1fr 0.5fr 1fr; /* Columnas laterales flexibles, columna media automática */
   background: #fdfdfdd2;
   box-shadow: inset 2px 2px 5px rgba(222, 222, 222, 0.414);
+  transition: 0.5s;
+}
+.pelea:hover{
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.414);
 }
 
 
@@ -68,6 +72,7 @@ html {
   left: 0;
   width: 100%;
   height: 30%;
+
 }
 #arbitro{
 
