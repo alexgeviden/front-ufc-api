@@ -9,6 +9,9 @@ html{
 #linea {
   border: 1px solid #db3030 !important; /* Borde sólido de color negro */
 }
+a{
+  text-decoration: none;
+}
 .pesos {
   height: 100%;
   width: 100%;
